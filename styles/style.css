@@ -272,12 +272,18 @@ footer{
 
         }
         /* ......sponsors section......... */
- /* .sponsors .sponsors-logo{
-    justify-content: space-between;
+  .sponsors-logo{
    
+    flex-direction: column;
     gap: 30px;
-    margin: 20px 0 100px 0;
-} */
+    align-items: center;
+   
+  
+    
+} 
+.sponsors-logo img{
+    width: 20%;
+}
 
 
 
