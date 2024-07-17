@@ -207,5 +207,52 @@ nav , .banner{
         margin-left: 100px;
         margin-top: 20px;
     }
+        /* .....feature-2 section.......... */
+.feature-2{
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.feature-2-title{
+    
+    font-size: 2rem;
+    
+}
+.feature-2-img img{
+    width:100%;
+}
+.badge{
+   
+    margin-left: 90px;
+    margin-top: -115px;
+}
+.feature-2-content{
+    margin-left:20px;
+
+}
+
+
+
+
+
+
+    /* .......fact section..... */
+
+    .facts-description{
+        margin-left: 20px;
+    }
+
+        .facts{
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+
+        }
+
+
+
+
+
 }
     
