@@ -5,6 +5,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    max-width: 1400px;
+    margin: 0 auto
+    ;
+}
 
 /* ............shared styles.......... */
 .display-flex{
@@ -55,9 +60,8 @@
 
 
 /*  . header....... */
-header{
 
-}
+
 /* ......nav......... */
 nav{
     justify-content: space-between;
@@ -66,11 +70,10 @@ nav{
  
     
 }
-nav ul{
-    /* align-items: center; */
+
 
    
-}
+
 nav ul li{
     list-style: none;
   
@@ -100,7 +103,7 @@ nav , .banner{
 }
 /* ............feature section-1............. */
 .features-1-container{
-    max-width: 1100px;
+    max-width: 1400px;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -116,3 +119,93 @@ nav , .banner{
     
 }
 /* ..............feature section-2 */
+.feature-2{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.feature-2-content{
+    margin-right:140px;
+
+}
+.feature-2-title{
+    border-left: 3px solid #ff900e;
+    padding-left: 10px;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.feature-2-card{
+    margin-top: 25px;
+    box-shadow: 0px 4px 30px 0 rgba(0,0,0,.06) ;
+    padding: 30px;
+    border-radius: 8px;
+}
+.card-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+   
+}
+.badge{
+    padding: 30px;
+    margin-left: -90px;
+    margin-top: -105px;
+}
+.experience-btn{
+    font-size: 3rem;
+
+}
+/* ....................some facts................ */
+    .facts-title{
+        margin: 100px,0px, 10px, 0px;
+    }
+    .facts{
+        justify-content: space-between;
+        margin: 50px 0px;
+        
+    }
+    .facts-card .number{
+        font-size:2.8rem;
+    
+    }
+
+
+
+
+.facts-card{ display: flex;
+    justify-content:center;
+    align-items: center;
+    border: 2px solid #ff900e;
+    border-radius: 8px;
+    width: 240px;
+    height: 240px;
+    text-align: center;
+    box-shadow: 0px 4px 30px 0 rgba(0,0,0,.06) ;
+
+}
+
+/* .............. responsive desinh for small device............. */
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+    }
+    .nav-list {margin-top: 20px;
+
+    }
+    .banner{
+    
+    }
+    .features-1-container{
+        flex-direction:  column-reverse;
+        text-align: center;
+    }
+    .feature1-img-container{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+}
+    
